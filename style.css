@@ -119,7 +119,7 @@ section#hero > div {
 }
 
 section#hero article > button {
-    padding: 8px 30px;
+    padding: 8px 40px;
     background-color: var(--button_background);
     color: var(--text_2);
     border: none;
@@ -137,4 +137,50 @@ section#hero article > button > a {
     color: var(--text_1);
     font-weight: bolder;
     text-decoration: none;
+}
+
+/* SECTION RANDOM */
+section#random {
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+}
+
+section#random > h1 {
+    color: var(--text_3);
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+section#random article {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+section#random article aside {
+    max-width: 200px;
+    margin: 18px;
+    transition-duration: 1s;
+}
+
+section#random article aside:hover {
+    zoom: 108%;
+    padding-bottom: 20px;
+    border-bottom: solid var(--button_background);
+}
+
+section#random article aside div {
+    width: 175px;
+    height: 175px;
+    border: solid var(--button_background) 5px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+section#random article aside p {
+    color: var(--text_4);
 }
